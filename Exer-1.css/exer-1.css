@@ -1,0 +1,38 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+
+  }
+
+  html, body {
+
+    width:  100vw;
+    height: 100vh;
+
+  }
+
+  body {
+  overflow: auto;
+  background: rgb(228, 224, 224);
+  }
+
+  .box-blue {
+    width: 10rem;
+    height: 10rem;
+    background: rgb(226, 8, 8);
+    margin: 1rem;
+  }
+
+  .box-black {
+    width: 10rem;
+    height: 10rem;
+    background: rgb(8, 10, 14);
+  }
+
+  .box-red.box-black {
+    background: rgb(46, 49, 46);
+  }
+
